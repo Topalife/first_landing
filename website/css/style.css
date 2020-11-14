@@ -7,6 +7,7 @@
 .container{
     width: 1140px;
     margin: 0 auto;
+    
 }
 
 .promo {
@@ -67,8 +68,6 @@ h2.title {
     color: #ffffff;
     font-size: 21px;
     font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 28px;
     text-align: center;
     font-family: "Roboto Light";
@@ -92,8 +91,6 @@ h2.title {
     font-family: "Roboto Condensed";
     font-size: 21px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 24px;
     text-align: center;
     text-transform: uppercase;
@@ -110,8 +107,6 @@ h2.title {
         font-family: "Roboto - Thin";
         font-size: 15px;
         font-weight: 400;
-        font-style: normal;
-        letter-spacing: normal;
         line-height: 24px;
         text-align: center;
         text-transform: uppercase;
@@ -128,4 +123,57 @@ h2.title {
         height: 604px;
         background-color: #efefef;
         padding: 85px 0 75px 0;
+     
     }
+    .waiting .waiting_header {
+        color: #252525;
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .waiting .waiting_divider {
+        width: 217px;
+        height: 4px;
+        background-color: #f9bf3b;
+        margin: 0 auto;
+        margin-top: 18px;
+        }
+
+    .waiting .waiting_subheader {
+        margin-top: 17px;
+        color: #4a4a4a;
+        font-family: Roboto;
+        font-size: 23px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .waiting .waiting_wrapper {
+        
+        display: block;
+        width: 1140px;
+        margin: 45px auto;      
+    }
+
+    .waiting .waiting_wrapper .waiting_item {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 15px;
+        width: 339px;
+        text-align: center;   
+    }
+
+    .waiting .waiting_wrapper .waiting_item .waiting_descr{
+        color: #4a4a4a;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 21px;
+        text-align: center;
+    }
+    
+
+    
